@@ -48,11 +48,13 @@ _enemySpawn 	= _this select 3;
 
 _taskState		= "ASSIGNED";
 
+
+/* FOR DEBUGGING
 for "i" from 1 to count _enemySpawn do
 {
 	systemChat str(_enemySpawn select i);
 };
-
+*/
 
 // Setting up the local task var
 _task = "task_" + str(tasksDone);
